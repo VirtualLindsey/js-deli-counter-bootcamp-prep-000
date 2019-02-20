@@ -3,7 +3,7 @@ var katzDeliLine = []
 let num = 0; 
 
 function takeANumber(katzDeliLine){
-  katzDeliLine.push(num + 1)
+  katzDeliLine.push(num = num + 1)
   return `You are ticket number ${num}.`
 }
 
